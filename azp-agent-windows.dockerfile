@@ -2,6 +2,6 @@ FROM mcr.microsoft.com/windows/servercore:ltsc2022
 
 WORKDIR /azp/
 
-COPY ./start.ps1 ./
+COPY ./start_with_spn.ps1 ./
 
-CMD powershell .\start.ps1
+CMD powershell .\start_with_spn.ps1
